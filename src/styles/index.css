@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+:root {
+  --color1: #073b4c;
+  --color2: #118ab2;
+  --color3: #06d6a0;
+  --color4: #ffd166;
+  --color5: #ef476f;
+
+  --main-bg-color: var(--color1);
+  --main-font-color: White;
+  --highlight-color:var(--color5);
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Archivo';
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
