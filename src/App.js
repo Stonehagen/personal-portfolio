@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const App = () => {
   return (
     <div className="App">
-     <h1>Tobias Steinhagen</h1>
+      <div className="Header">Tobias Steinhagen</div>
+      <div className='About-Me'>About Me</div>
+      <div className='Projects'>My Projects</div>
+      <div className='Contact'>Contact Me</div>
     </div>
   );
-}
+};
 
 export default App;
