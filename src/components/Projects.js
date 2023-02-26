@@ -9,7 +9,7 @@ const Projects = () => {
     {
       name: 'Clone Microsoft Landingpage',
       text: 'A clone of the Microsoft Landingpage',
-      img: Project1,
+      img: Project2,
       srcLink: 'https://github.com/Stonehagen/clone-microsoft-com',
       liveLink: 'https://stonehagen.github.io/clone-microsoft-com/',
     },
@@ -39,9 +39,11 @@ const Projects = () => {
   return (
     <div className="Projects">
       <h1>My Projects</h1>
-      {projectList.map((project) => (
-        <ProjectCard project={project} />
-      ))}
+      <div className="Projects-Cont">
+        {projectList.map((project) => (
+          <ProjectCard project={project} />
+        ))}
+      </div>
     </div>
   );
 };

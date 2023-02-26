@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Header.css';
-import { ReactComponent as ArrowDown } from '../img/arrow-down.svg';
 
 const Header = () => {
   return (

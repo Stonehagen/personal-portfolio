@@ -4,8 +4,8 @@ import '../styles/ProjectCard.css';
 const ProjectCard = ({ project }) => {
   return (
     <div className="ProjectCard">
-      <img src={project.img} alt={project.name}/>
-      <h2>{project.name}</h2>
+      <h3>{project.name}</h3>
+      <img src={project.img} alt={project.name} />
       <p>{project.text}</p>
     </div>
   );

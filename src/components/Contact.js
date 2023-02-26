@@ -7,8 +7,7 @@ const Contact = () => {
   return (
     <div className="Contact">
       <h1>Contact me</h1>
-      <p>Please get in touch with me.</p>
-      <p>email.Placeholder@okat.com</p>
+      <p>tobias.steinhagen@me.com</p>
       <ul>
         <li>
           <a href='https://github.com/Stonehagen'>

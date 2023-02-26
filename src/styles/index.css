@@ -1,22 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 1.3em;
+    max-width: 500px;
+  }
+  .About img {
+    width: 200px;
+  }
+  .Contact li {
+    width: 48px;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 6em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 2em;
+    max-width: 700px;
+  }
+  .About img {
+    width: 350px;
+  }
+  .Contact li {
+    width: 96px;
+  }
+}
 
 :root {
-  --color1: #003e53;
-  --color2: #375b68;
-  --color3: #9bccd1;
-  --color4: #b02853;
-  --color5: #fbfbfb;
+  --color1: #272727;
+  --color2: #303530;
+  --color3: #f4fff9;
+  --color4: #ccff00;
+  --color5: #d2dbd3;
 
   --main-bg-color: var(--color1);
   --second-bg-color: var(--color2);
+  --highlight-font-color: var(--color3);
+  --highlight-color: var(--color4);
   --main-font-color: var(--color5);
-  --highlight-color:var(--color4);
 }
 
 html,
 body {
   margin: 0;
-  font-family: 'Josefin Slab';
+  font-family: 'Oswald';
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
 }
@@ -24,4 +60,11 @@ body {
 .App {
   height: 100vh;
   overflow: scroll;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--highlight-font-color);
 }

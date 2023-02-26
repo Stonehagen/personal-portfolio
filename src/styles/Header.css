@@ -19,18 +19,8 @@
   align-items: center;
 }
 
-.Header H1 {
-  font-size: 2.8em;
-  font-weight: 500;
-}
-
 .Header span {
   color: var(--highlight-color)
-}
-
-.Header H2 {
-  font-size: 1.5em;
-  font-weight: 500;
 }
 
 .Arrow-Down {
