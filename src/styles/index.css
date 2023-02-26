@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400;1,600;1,700&display=swap');
 
 :root {
-  --color1: #24305E;
-  --color2: #374785;
-  --color3: #f6f7ef;
-  --color4: #dc6262;
-  --color5: #F8E9A1;
+  --color1: #003e53;
+  --color2: #375b68;
+  --color3: #9bccd1;
+  --color4: #b02853;
+  --color5: #fbfbfb;
 
-  --main-bg-color: var(--color3);
-  --main-font-color: var(--color2);
+  --main-bg-color: var(--color1);
+  --second-bg-color: var(--color2);
+  --main-font-color: var(--color5);
   --highlight-color:var(--color4);
 }
 
@@ -23,9 +24,4 @@ body {
 .App {
   height: 100vh;
   overflow: scroll;
-  scroll-snap-type: y mandatory;
-}
-
-.App div {
-  scroll-snap-align: center;
 }

@@ -1,14 +1,16 @@
 import React from 'react';
 import About from './components/About';
+import Contact from './components/Contact';
 import Header from './components/Header';
+import Projects from './components/Projects';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <About />
-      <div className='Projects'>My Projects</div>
-      <div className='Contact'>Contact Me</div>
+      <Projects />
+      <Contact />
     </div>
   );
 };

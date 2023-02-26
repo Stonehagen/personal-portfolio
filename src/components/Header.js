@@ -10,10 +10,9 @@ const Header = () => {
           Hi, I'm <span>Tobias</span>
         </h1>
         <h2>
-          A <span>full-stack</span> web developer
+          a <span>full-stack</span> web developer
         </h2>
       </div>
-      <ArrowDown className="Arrow-Down" />
     </div>
   );
 };

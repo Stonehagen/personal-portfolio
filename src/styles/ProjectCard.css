@@ -1,0 +1,13 @@
+.ProjectCard {
+  width: 280px;
+  background-color: var(--second-bg-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.ProjectCard img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 280px;
+}
