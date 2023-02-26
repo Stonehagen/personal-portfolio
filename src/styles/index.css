@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400;1,600;1,700&display=swap');
 
 :root {
-  --color1: #073b4c;
-  --color2: #118ab2;
-  --color3: #06d6a0;
-  --color4: #ffd166;
-  --color5: #ef476f;
+  --color1: #24305E;
+  --color2: #374785;
+  --color3: #f6f7ef;
+  --color4: #dc6262;
+  --color5: #F8E9A1;
 
-  --main-bg-color: var(--color1);
-  --main-font-color: White;
-  --highlight-color:var(--color5);
+  --main-bg-color: var(--color3);
+  --main-font-color: var(--color2);
+  --highlight-color:var(--color4);
 }
 
 html,
 body {
   margin: 0;
-  font-family: 'Archivo';
+  font-family: 'Josefin Slab';
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
 }

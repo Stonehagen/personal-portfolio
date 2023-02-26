@@ -5,3 +5,19 @@
   align-items: center;
   justify-content: center;
 }
+
+.About img {
+  border-radius: 50%;
+  border: 1px solid var(--color2);
+  width: 200px;
+}
+
+.About h1 {
+  margin-bottom: 0;
+}
+
+.About p {
+  margin: 0;
+  padding: 20px;
+  font-size: 1.3em;
+}
