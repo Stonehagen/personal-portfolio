@@ -10,6 +10,7 @@
 .About img {
   border-radius: 50%;
   border: 2px solid var(--highlight-color);
+  max-width: 300px;
 }
 
 .About h1 {

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/About.css';
-import ProfilePic from '../img/profile.jpg';
+import ProfilePic from '../img/profile.png';
 
 const About = () => {
   return (
-    <div on className="About">
+    <div className="About">
       <img src={ProfilePic} alt='Tobias Steinhagen'/>
       <h1>About me</h1>
       <p>
