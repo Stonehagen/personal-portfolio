@@ -7,7 +7,7 @@ const Projects = () => {
   const projectList = [
     {
       name: 'Blog',
-      text: 'A fictitious travel blog with AI generated posts. You can sign-up to create, edit, publish and delete your posts. You can comment every posts without registration and its possible to delete comments if your are the author of the post. I created an express backend API, wich interacts with my mongoDB Database. The Frontend is a react application wich makes the api calls for all the CRUD operations.',
+      text: 'A fictitious travel blog featuring AI-generated posts, where users can sign up to create, edit, publish, and delete their own posts. Additionally, visitors can leave comments on posts without registering, and authors have the ability to delete comments. To facilitate these functionalities, I have developed an Express backend API that interacts with a MongoDB database. The frontend is a React application that makes API calls for all CRUD (Create, Read, Update, Delete) operations.',
       img: Project1,
       srcLinks: [
         'https://github.com/Stonehagen/odin-blog-api-backend',
