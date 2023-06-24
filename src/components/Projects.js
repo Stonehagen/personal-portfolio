@@ -1,10 +1,21 @@
 import React from 'react';
 import '../styles/Projects.css';
 import Project1 from '../img/projects/Project1.png';
+import Project2 from '../img/projects/Project2.png';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   const projectList = [
+    {
+      name: 'Social Network',
+      text: 'A Social Network with 2000 fake profiles. You have to create a profile to get access to the network or use the test account. Its possible to make private or global posts, make friend requests, send private messages and many more. To facilitate these functionalities, I have developed an Express backend API with socketIO for the chat function that interacts with a MongoDB database. The fully responsible frontend is a React application that makes API calls for all CRUD (Create, Read, Update, Delete) operations.',
+      img: Project2,
+      srcLinks: [
+        'https://github.com/Stonehagen/social-network-backend',
+        'https://github.com/Stonehagen/social-network-frontend',
+      ],
+      liveLink: 'http://cornectme.stonehagen.com/',
+    },
     {
       name: 'Blog',
       text: 'A fictitious travel blog featuring AI-generated posts, where users can sign up to create, edit, publish, and delete their own posts. Additionally, visitors can leave comments on posts without registering, and authors have the ability to delete comments. To facilitate these functionalities, I have developed an Express backend API that interacts with a MongoDB database. The frontend is a React application that makes API calls for all CRUD (Create, Read, Update, Delete) operations.',
