@@ -1,0 +1,15 @@
+.Menu {
+  position: fixed;
+  right: 0;
+}
+
+.Menu img {
+  width: 32px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.Menu img:hover {
+  cursor: pointer;
+}
+

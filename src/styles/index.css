@@ -35,18 +35,21 @@
   }
 }
 
-:root {
+body {
   --color1: #272727;
   --color2: #303530;
   --color3: #f4fff9;
   --color4: #ccff00;
   --color5: #d2dbd3;
 
-  --main-bg-color: var(--color1);
-  --second-bg-color: var(--color2);
-  --highlight-font-color: var(--color3);
-  --highlight-color: var(--color4);
-  --main-font-color: var(--color5);
+}
+
+.lightmode {
+  --color5: #272727;
+  --color3: #303530;
+  --color1: #f4fff9;
+  --color4: #74b503;
+  --color2: #d2dbd3;
 }
 
 html,
@@ -55,6 +58,12 @@ body {
   font-family: 'Oswald';
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
+
+  --main-bg-color: var(--color1);
+  --second-bg-color: var(--color2);
+  --highlight-font-color: var(--color3);
+  --highlight-color: var(--color4);
+  --main-font-color: var(--color5);
 }
 
 .App {
