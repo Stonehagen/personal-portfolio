@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @media (max-width: 599px) {
   h1 {
@@ -36,26 +36,18 @@
 }
 
 body {
-  --color1: #272727;
-  --color2: #303530;
-  --color3: #f4fff9;
-  --color4: #ccff00;
-  --color5: #d2dbd3;
+  --color1: #F5F5F5;
+  --color2: #FFFFFF;
+  --color3: #1D1E21;
+  --color4: rgb(15, 115, 238);
+  --color5: #585858;
 
-}
-
-.lightmode {
-  --color5: #272727;
-  --color3: #303530;
-  --color1: #f4fff9;
-  --color4: #74b503;
-  --color2: #d2dbd3;
 }
 
 html,
 body {
   margin: 0;
-  font-family: 'Oswald';
+  font-family: 'Space Grotesk', sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
 

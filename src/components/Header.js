@@ -9,7 +9,7 @@ const Header = () => {
           Hi, I'm <span>Tobias</span>
         </h1>
         <h2>
-          a <span>full-stack</span> web developer
+          A <span>FULL-STACK</span> WEB DEVELOPER
         </h2>
       </div>
     </div>
