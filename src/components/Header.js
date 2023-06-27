@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
+import { ReactComponent as Cursor } from '../img/cursor.svg';
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
         </h1>
         <h2>
           A <span>FULL-STACK</span> WEB DEVELOPER
+          <Cursor />
         </h2>
       </div>
     </div>

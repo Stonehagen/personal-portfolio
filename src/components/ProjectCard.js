@@ -1,15 +1,21 @@
 import React from 'react';
 import '../styles/ProjectCard.css';
+import { ReactComponent as Arrow } from '../img/arrow.svg';
 
 const ProjectCard = ({ project }) => {
   return (
     <div className="ProjectCard">
       <div className="ProjectCard-Info">
         <div className="ProjectCard-Image">
-          <img src={project.img} alt={project.name} />
+          <a href={project.liveLink}>
+            <img src={project.img} alt={project.name} />
+          </a>
         </div>
         <div className="ProjectCard-Text">
-          <h2>{project.name}</h2>
+          <h2>
+            <Arrow />
+            <a href={project.liveLink}>{project.name} </a>
+          </h2>
           <p>{project.text}</p>
           <ul>
             {project.srcLinks.map((link, index) => {
@@ -26,10 +32,10 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       <div className="ProjectCard-Web">
-          <img src={project.web} alt={project.name} />
+        <img src={project.web} alt={project.name} />
       </div>
       <div className="ProjectCard-Phone">
-          <img src={project.phone} alt={project.name} />
+        <img src={project.phone} alt={project.name} />
       </div>
     </div>
   );

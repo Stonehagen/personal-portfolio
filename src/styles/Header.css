@@ -1,3 +1,27 @@
+
+@media (min-width: 600px) {
+  .Header svg {
+    margin: 0 0 -7px -15px;
+  }
+}
+
+@media (max-width: 599px) {
+  .Header svg {
+    margin: 0 0 -15px -10px;
+    width: 20px;
+  }
+}
+
+
+@keyframes prompt {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
 .Header {
   height: 100vh;
   display: flex;
@@ -19,4 +43,8 @@
 
 .Header h2 {
   letter-spacing: .2rem;
+}
+
+.Header svg {
+  animation: prompt 1.5s steps(1) infinite;
 }

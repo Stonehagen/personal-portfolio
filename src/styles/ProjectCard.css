@@ -128,15 +128,34 @@
   max-height: 100%;
 }
 
-
 .ProjectCard h2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ProjectCard h2 svg {
+  height: 20px;
+  width: 20px;
+}
+
+.ProjectCard h2 a {
+  font-size: 1em;
   letter-spacing: .2rem;
   text-transform: uppercase;
   color: var(--highlight-color);
+  background-color: transparent;
+  padding: 0;
+}
+
+.ProjectCard h2:hover a {
+  background-color: transparent;
 }
 
 .ProjectCard h2:hover {
   cursor: pointer;
+  gap: 12px;
+  transition: gap 0.3s ease-in-out;
 }
 
 .ProjectCard p {
