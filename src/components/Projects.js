@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
-import Project1 from '../img/projects/Project1.png';
-import Project2 from '../img/projects/Project2.png';
+import Project1 from '../img/projects/Project1_1.png';
+import Project2 from '../img/projects/Project2_1.png';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {

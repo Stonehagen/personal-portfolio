@@ -1,3 +1,21 @@
+@media (min-width: 1200px) {
+  .Projects-Cont {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1199px) {
+  .Projects-Cont {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 699px) {
+  .Projects-Cont {
+    padding: 20px;
+  }
+}
+
 .Projects {
   min-height: 100vh;
   align-items: center;
@@ -13,7 +31,6 @@
 
 .Projects-Cont {
   max-width: 100%;
-  padding: 40px;
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(280px, 1fr));
   align-items: center;

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @media (max-width: 599px) {
+  h2 {
+    font-size: 1em;
+  }
   h1 {
     font-size: 3em;
   }
