@@ -5,35 +5,10 @@
     gap: 10px;
   }
 
-  .ProjectCard img {
-    width: 350px;
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .ProjectCard-Text {
-    padding: 0 10px;
-  }
-
-  .ProjectCard-Image {
-    display: flex; 
-    align-items: center;
-  }
-
-  .ProjectCard p {
-    font-size: 1.3em;
-  }
-
-  .ProjectCard h2 {
-    margin: 0;
-  }
-
-}
-
-@media (min-width: 800px) and (max-width: 1199px) {
-  .ProjectCard {
-    display: flex;
-    flex-direction: column;
+  .ProjectCard-Info {
+    max-height: 800px;
+    max-width: 500px;
+    min-width: 350px
   }
 
   .ProjectCard h2 {
@@ -41,11 +16,64 @@
   }
 }
 
-@media (max-width: 799px) {
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .ProjectCard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .ProjectCard-Info {
+    max-height: 800px;
+    max-width: 500px;
+    min-width: 350px
+  }
+
+  .ProjectCard h2 {
+    font-size: 1.5em;
+  }
+
+  .ProjectCard-Phone {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .ProjectCard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .ProjectCard-Info {
+    max-height: 800px;
+    max-width: 500px;
+    min-width: 350px
+  }
+
+  .ProjectCard h2 {
+    font-size: 1.5em;
+  }
+
+  .ProjectCard-Web {
+    display: none;
+  }
+}
+
+@media (max-width: 899px) {
   .ProjectCard {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 550px;
+  }
+
+  .ProjectCard-Phone {
+    display: none;
+  }
+
+  .ProjectCard-Web {
+    display: none;
   }
 
   .ProjectCard h2 {
@@ -54,32 +82,61 @@
 }
 
 .ProjectCard {
+  align-items: center;
   background-color: var(--second-bg-color);
+}
+
+.ProjectCard-Info {
   padding: 10px;
+  align-self: flex-start;
 }
 
 .ProjectCard-Image {
   overflow: hidden;
-  margin: 0 auto;
-  height: 320px;
+  margin: 0;
 }
 
 
 .ProjectCard-Image img{
-  overflow: hidden;
   transition: 0.2s all ease-in-out;
   max-width: 100%;
+  transform: scale(1.05);
 }
 
 .ProjectCard-Image:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
   cursor: pointer;
 }
+
+.ProjectCard-Phone {
+  height: 700px;
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.ProjectCard-Phone img {
+  max-height: 100%;
+}
+
+.ProjectCard-Web {
+  height: 700px;
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.ProjectCard-Web img {
+  max-height: 100%;
+}
+
 
 .ProjectCard h2 {
   letter-spacing: .2rem;
   text-transform: uppercase;
   color: var(--highlight-color);
+}
+
+.ProjectCard h2:hover {
+  cursor: pointer;
 }
 
 .ProjectCard p {
