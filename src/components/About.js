@@ -8,7 +8,7 @@ const About = () => {
       <h1>About me</h1>
         <p>
           My name is Tobias Steinhagen. I'm a self tought full-stack web
-          developer based in Luebeck, Germany. I am also a educated mechanical
+          developer based in Luebeck, Germany. I am also an educated mechanical
           engineer.
         </p>
         <p>

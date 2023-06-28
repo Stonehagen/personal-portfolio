@@ -6,6 +6,9 @@ import Project1Web from '../img/projects/Project1_Web.png';
 import Project2 from '../img/projects/Project2_1.png';
 import Project2Phone from '../img/projects/Project2_Phone.png';
 import Project2Web from '../img/projects/Project2_Web.png';
+import Project3 from '../img/projects/Project3_1.png';
+import Project3Phone from '../img/projects/Project3_Phone.png';
+import Project3Web from '../img/projects/Project3_Web.png';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -20,7 +23,7 @@ const Projects = () => {
         'https://github.com/Stonehagen/social-network-backend',
         'https://github.com/Stonehagen/social-network-frontend',
       ],
-      liveLink: 'http://cornectme.stonehagen.com/',
+      liveLink: 'https://cornectme.stonehagen.com/',
     },
     {
       name: 'Blog',
@@ -32,7 +35,18 @@ const Projects = () => {
         'https://github.com/Stonehagen/odin-blog-api-backend',
         'https://github.com/Stonehagen/odin-blog-frontend',
       ],
-      liveLink: 'http://blog.stonehagen.com/',
+      liveLink: 'https://blog.stonehagen.com/',
+    },
+    {
+      name: 'Personal Portfolio',
+      text: 'This Personal portfolio Website. You can learn something about me, explore some project of mine and contact me. Its a fully responsible react application.',
+      img: Project3,
+      phone: Project3Phone,
+      web: Project3Web,
+      srcLinks: [
+        'https://github.com/Stonehagen/personal-portfolio',
+      ],
+      liveLink: 'https://stonehagen.com/',
     },
   ];
 
