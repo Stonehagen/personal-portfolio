@@ -39,7 +39,7 @@ const Projects = () => {
     },
     {
       name: 'Personal Portfolio',
-      text: 'This Personal portfolio Website. You can learn something about me, explore some project of mine and contact me. Its a fully responsible react application.',
+      text: 'This personal portfolio website. You can learn something about me, explore some projects of mine and contact me. Its a fully responsive react application.',
       img: Project3,
       phone: Project3Phone,
       web: Project3Web,
