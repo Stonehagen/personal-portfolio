@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Contact.css';
 import { ReactComponent as GitHub } from '../img/github-original.svg';
 import { ReactComponent as LinkedIn } from '../img/linkedin-plain.svg';
+import { ReactComponent as Hashnode } from '../img/hashnode.svg';
 
 const Contact = () => {
   return (
@@ -15,8 +16,13 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://de.linkedin.com/in/tobias-steinhagen-ab3538107'>
+          <a href='https://de.linkedin.com/in/tobias-steinhagen'>
             <LinkedIn />
+          </a>
+        </li>
+        <li>
+          <a href='https://stonehagen.hashnode.dev'>
+            <Hashnode />
           </a>
         </li>
       </ul>
