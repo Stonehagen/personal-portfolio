@@ -7,7 +7,7 @@ const About = () => {
         <img src={ProfilePic} alt="Tobias Steinhagen" />
       <h1>About me</h1>
         <p>
-          My name is Tobias Steinhagen. I'm a self tought full-stack web
+          My name is Tobias Steinhagen. I'm a self taught full-stack web
           developer based in Luebeck, Germany. I am also an educated mechanical
           engineer.
         </p>
