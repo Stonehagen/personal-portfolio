@@ -25,9 +25,11 @@ const ProjectCard = ({ project }) => {
                 </li>
               );
             })}
-            <li>
-              <a href={project.liveLink}>Live</a>
-            </li>
+            {project.liveLink ? (
+              <li>
+                <a href={project.liveLink}>Live</a>
+              </li>
+            ) : null}
           </ul>
         </div>
       </div>

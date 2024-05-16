@@ -37,8 +37,7 @@ const Projects = () => {
       srcLinks: [
         'https://github.com/Stonehagen/social-network-backend',
         'https://github.com/Stonehagen/social-network-frontend',
-      ],
-      liveLink: 'https://cornectme.stonehagen.com/',
+      ]
     },
     {
       name: 'Blog',
@@ -49,8 +48,7 @@ const Projects = () => {
       srcLinks: [
         'https://github.com/Stonehagen/odin-blog-api-backend',
         'https://github.com/Stonehagen/odin-blog-frontend',
-      ],
-      liveLink: 'https://blog.stonehagen.com/',
+      ]
     },
     {
       name: 'Personal Portfolio',
